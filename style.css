@@ -1,0 +1,34 @@
+body{
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+div{
+    border: 5px solid #333;
+}
+main{
+    background-color: red;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+   font-size: 60px;
+}
+nav{
+    width: 350px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    color: #444;
+}
+i{
+    cursor: pointer;
+}
